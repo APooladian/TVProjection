@@ -6,6 +6,8 @@ Using the PyTorch framework, I basically re-wrote their algorithm to perform in 
 
 Denoising Lena in 100 iterations takes roughly 3.22 seconds on a single consumer-grade GPU. Denoising 50 Lena's in parallel takes approximately 16 seconds (not 160 seconds).
 
+To use: run "./run.sh" in the examples folder. 
+
 ### Citation
 If you find this to be helpful in your research, please both myself and the original work:
 ```
