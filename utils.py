@@ -2,7 +2,7 @@ import torch as th
 import torch.nn as nn
 import numpy as np
 from torch.nn import functional as F
-from DeepPeyre.simplex import L1BallProj
+from TVProjection.simplex import L1BallProj
 
 class ProjStep(nn.Module):
     def __init__(self):

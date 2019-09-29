@@ -2,7 +2,7 @@ import torch as th
 import numpy as np
 import torch.nn as nn
 
-from DeepPeyre.utils import *
+from TVProjection.utils import *
 
 class TVBallProj(nn.Module):
     def __init__(self,Niters=200,mu=0.25,has_cuda=True):
