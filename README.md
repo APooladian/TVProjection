@@ -9,7 +9,7 @@ Denoising Lena in 100 iterations takes roughly 3.22 seconds on a single consumer
 To use: run "./run.sh" in the examples folder. 
 
 ### Citation
-If you find this to be helpful in your research, please both myself and the original work:
+If you find this particular implementation to be helpful in your research, please cite both myself and the original work:
 ```
 @code{BatchwiseProjection,
   title={Batchwise Projection onto total variation norm ball},
